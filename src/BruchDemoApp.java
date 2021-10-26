@@ -11,10 +11,13 @@ public class BruchDemoApp {
         System.out.println("b15.print() = " + b15.print());
         System.out.println("b15.toDecimal() = " + b15.toDecimal());
 
-        Bruch erg = b24.multiplicate(b15);
-        System.out.println("erg.print() = " + erg.print()); // 2 / 20
+       // Bruch erg = b24.multiplicate(b24);
+       // System.out.println("erg.print() = " + erg.print());;
 
-        erg = b24.multiplicate(b15, b23);
+        //Bruch erg = b24.multiplicate(b15);
+        //System.out.println("erg.print() = " + erg.print()); // 2 / 20
+
+       Bruch erg = b24.multiplicate(b15, b23);
         System.out.println("erg.print() = " + erg.print()); // 4 / 60
     }
 
