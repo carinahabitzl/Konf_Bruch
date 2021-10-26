@@ -19,12 +19,12 @@ public class Bruch {
 
         // TODO: Die Methode soll den Dezimalwert zum Bruch retournieren
         // Achtung: Ganzzahldivision!
-        return denominator/numerator;
+        return 1.0* numerator/denominator;
     }
 
     public String print() {
         // TODO: Die Methode soll den Bruch als Text retournieren z.B.: "5 / 7"
-        return denominator +" / "+numerator;
+        return numerator +" / "+denominator;
     }
 
     public Bruch multiplicate(Bruch b2) {
